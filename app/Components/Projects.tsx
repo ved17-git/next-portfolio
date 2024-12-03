@@ -4,6 +4,7 @@ import React from "react";
 import project1 from '../../Assets/FireShot Capture 018 - Vite + React - react-movie-app-five-liard.vercel.app.png'
 import project2 from '../../Assets/FireShot Capture 019 - Vite + React - react-recipe-app-sooty.vercel.app.png'
 import projct3 from '../../Assets/FireShot Capture 016 - Vite + React - react-todo-three-nu.vercel.app.png'
+import project4 from '../../Assets/FireShot Capture 021 - Portfolio - localhost.png'
 
 
 function Projects() {
@@ -61,16 +62,15 @@ function Projects() {
     {
       id: 4,
       title: "Portfolio",
-      image:
-        "",
+      image:project4,
       description: "A personal portfolio website showcasing projects and skills. Built with Next.js and TypeScript, designed for fast loading and seamless user experience.",
       tech: [
         { id: 1, name: "Next.js", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
         { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
       ],
       links: [
-        { live: "https://react-movie-app-five-liard.vercel.app/" },
-        { github: "https://github.com/ved17-git/React-Movie-App" }
+        { live: "https://next-portfolio-fawn-two.vercel.app//" },
+        { github: "https://github.com/ved17-git/next-portfolio" }
       ]
     },
     // Add more projects as needed
