@@ -132,7 +132,7 @@ function Contact() {
             />
           </div>
           {error ? (
-            <p className="text-red-600 font-title">All Feilds Required</p>
+            <p className="text-red-600 font-title">All fields are required</p>
           ) : null}
 
           <Button
