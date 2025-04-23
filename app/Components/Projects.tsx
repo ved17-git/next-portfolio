@@ -5,12 +5,33 @@ import project1 from '../../Assets/FireShot Capture 018 - Vite + React - react-m
 import project2 from '../../Assets/FireShot Capture 019 - Vite + React - react-recipe-app-sooty.vercel.app.png'
 import projct3 from '../../Assets/FireShot Capture 016 - Vite + React - react-todo-three-nu.vercel.app.png'
 import project4 from '../../Assets/FireShot Capture 021 - Portfolio - localhost.png'
+import CartProject from '../../Assets/CartProject.png'
 
 
 function Projects() {
 
   const projects = [
+  
     {
+      id: 5,
+      title: "Scancart",
+      image:CartProject,
+      description: "ScanCart is a smart shopping assistant built with React, Node.js, and Prisma, allowing users to scan barcodes, view product details, add to cart, and place orders seamlessly.",
+      tech: [
+        { id: 1, name: "React", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+        { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+        { id: 3, name: "Nodejs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" },
+        { id: 4, name: "Mysql", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg" },
+        { id: 5, name: "Tailwind", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+      ],
+      links: [
+        { live: "https://cart-olive-psi.vercel.app/" },
+        { github: "https://github.com/ved17-git/Cart" }
+      ]
+    },
+
+    {
+      
       id: 1,
       title: "Movie Website",
       image:project1,
@@ -73,7 +94,7 @@ function Projects() {
         { github: "https://github.com/ved17-git/next-portfolio" }
       ]
     },
-    // Add more projects as needed
+
   ];
   
 
