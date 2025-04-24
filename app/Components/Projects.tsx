@@ -6,11 +6,28 @@ import project2 from '../../Assets/FireShot Capture 019 - Vite + React - react-r
 import projct3 from '../../Assets/FireShot Capture 016 - Vite + React - react-todo-three-nu.vercel.app.png'
 import project4 from '../../Assets/FireShot Capture 021 - Portfolio - localhost.png'
 import CartProject from '../../Assets/CartProject.png'
+import ChatAppProject from '../../Assets/ChatAppProject.png'
 
 
 function Projects() {
 
   const projects = [
+    {
+      id: 6,
+      title: "Broadcast-Chat-App",
+      image:ChatAppProject,
+      description: "Broadcast Chat is a real-time group chat application built with WebSockets, Node.js, and vanilla JavaScript, allowing users to seamlessly join a chat room, broadcast messages, and engage in live conversations with others in the same room.",
+      tech: [
+        { id: 1, name: "Nextjs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
+        { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+        { id: 3, name: "Nodejs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" },
+        { id: 4, name: "Tailwind", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+      ],
+      links: [
+        { live: "https://broadcast-chat-app.vercel.app/" },
+        { github: "https://github.com/ved17-git/Broadcast-ChatAPP" }
+      ]
+    },
   
     {
       id: 5,
@@ -29,6 +46,7 @@ function Projects() {
         { github: "https://github.com/ved17-git/Cart" }
       ]
     },
+    
 
     {
       
