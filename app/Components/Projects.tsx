@@ -7,11 +7,35 @@ import projct3 from '../../Assets/FireShot Capture 016 - Vite + React - react-to
 import project4 from '../../Assets/FireShot Capture 021 - Portfolio - localhost.png'
 import CartProject from '../../Assets/CartProject.png'
 import ChatAppProject from '../../Assets/ChatAppProject.png'
+import paymentProject from '../../Assets/payment-project.png'
+import botspaceProject from  '../../Assets/botspace-project.png'
 
 
 function Projects() {
 
   const projects = [
+
+      {
+      id: 9,
+      title: "Payment-App",
+      image:paymentProject,
+      description: "Payment App is a full stack peer to peer money transfer application. Users can sign up log in and securely send or receive money. Built with Next.js Node.js and MongoDB it offers a smooth and secure transaction experience.",
+      tech: [
+        { id: 1, name: "Nextjs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
+        { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+        { id: 3, name: "Nodejs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" },
+        { id: 4, name: "Tailwind", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+         { id: 5, name: "MongoDB", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" },
+      ],
+      links: [
+        // { live: "https://broadcast-chat-app.vercel.app/" },
+        { github: "https://github.com/ved17-git/Payment-App" }
+      ]
+    },
+
+
+
+
     {
       id: 6,
       title: "Broadcast-Chat-App",
@@ -26,6 +50,24 @@ function Projects() {
       links: [
         { live: "https://broadcast-chat-app.vercel.app/" },
         { github: "https://github.com/ved17-git/Broadcast-ChatAPP" }
+      ]
+    },
+
+       
+      {
+      id: 7,
+      title: "Bot Space",
+      image:botspaceProject,
+      description: "Botspace is a frontend-only Instagram automation tool built with Next.js and Redux. It allows users to schedule and manage Instagram posts with media and captions.",
+      tech: [
+        { id: 1, name: "Nextjs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
+        { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+        { id: 3, name: "Redux", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" },
+        { id: 4, name: "Tailwind", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+      ],
+      links: [
+        { live: "https://botspace-black.vercel.app/" },
+        { github: "https://github.com/ved17-git/Botspace" }
       ]
     },
   
