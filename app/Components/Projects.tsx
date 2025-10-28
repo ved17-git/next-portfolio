@@ -15,6 +15,26 @@ function Projects() {
 
   const projects = [
 
+          {
+      id: 10,
+      title: "Draw-app",
+      image:paymentProject,
+      description: " Engineered a full-stack real-time collaborative whiteboard using Next.js, WebSocket, and a scalable microservices architecture.",
+      tech: [
+        { id: 1, name: "Nextjs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
+        { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+        { id: 3, name: "Nodejs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" },
+        { id: 4, name: "Tailwind", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+         { id: 5, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
+         { id: 6, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
+         { id: 7, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" }
+      ],
+      links: [
+        // { live: "https://broadcast-chat-app.vercel.app/" },
+        { github: "https://github.com/ved17-git/Draw-app" }
+      ]
+    },
+
       {
       id: 9,
       title: "Payment-App",
@@ -90,8 +110,7 @@ function Projects() {
     },
     
 
-    {
-      
+    { 
       id: 1,
       title: "Movie Website",
       image:project1,
