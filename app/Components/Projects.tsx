@@ -9,6 +9,7 @@ import CartProject from '../../Assets/CartProject.png'
 import ChatAppProject from '../../Assets/ChatAppProject.png'
 import paymentProject from '../../Assets/payment-project.png'
 import botspaceProject from  '../../Assets/botspace-project.png'
+import drawAppProject from '../../Assets/draw-app project.png'
 
 
 function Projects() {
@@ -18,15 +19,14 @@ function Projects() {
           {
       id: 10,
       title: "Draw-app",
-      image:paymentProject,
+      image:drawAppProject,
       description: " Engineered a full-stack real-time collaborative whiteboard using Next.js, WebSocket, and a scalable microservices architecture.",
       tech: [
         { id: 1, name: "Nextjs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
         { id: 2, name: "Typescript", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
         { id: 3, name: "Nodejs", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" },
-        { id: 4, name: "Tailwind", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
          { id: 5, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
-         { id: 6, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
+         { id: 6, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" },
          { id: 7, name: "postgres", image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" }
       ],
       links: [
